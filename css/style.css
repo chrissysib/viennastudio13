@@ -1,0 +1,141 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', helvetica, sans-serif;
+	font-weight: 300;
+}
+
+header,
+footer {
+	height: 10%;
+
+}
+h1 {
+	color: black;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 2px;
+	vertical-align: baseline;
+	padding-left: 10px;
+	float: left;
+	margin-top: 34px;
+}
+
+footer {
+	background-color: black;
+}
+
+main {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 80%;
+
+}
+.main-lvh {
+	background: url(../images/wagner.jpg) left top rgb(0,0,0);
+	background-size: auto auto;
+}
+.main-sca {
+	background: white;
+}
+
+.content {
+	padding: 20px;
+	float: left;
+	width: 3000px;
+}
+.floatleft {
+	float: left;
+	margin-right: 20px;
+	width: 400px;
+
+}
+.pullquote {
+	font-size: 40px;
+	font-weight: 600;
+	font-style: italic;
+	letter-spacing: 2px;
+	color: #CE1126;
+}
+.box1 {
+	/*float: left;*/
+	/*width: 400px;*/
+	background: rgba(255,255,255, 0.7);
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.box2 {
+	float: left;
+	width: 400px;
+	margin-right: 20px;
+	margin-top: 60px;
+	padding: 10px;
+	vertical-align: baseline;
+}
+
+.box3 {
+	float: left;
+	width: 300px;
+	background: rgba(255,255,255, 0.7);
+	margin-right: 20px;
+}
+.box4 {
+	float: left;
+	width: 300px;
+	background: rgba(255,255,255, 0.7);
+	margin-right: 20px;
+	padding: 10px;
+}
+.img1 {
+	width: 70%;
+	height: 70%;
+	float: right;
+}
+
+ul {
+	text-align: center;
+	padding: 10px;
+	width: 90%; 
+	margin: auto;
+}
+li {
+	color: white;
+	float: left;
+	width: 12.5%;
+	list-style-type: none;
+	font-size: 12px;
+	font-family: helvetica, sans-serif;
+}
+
+.lander {
+	width: 77.25px;
+	height: 60px;
+	float: left;
+}
+.aboutpoem {
+	font-size: 12px;
+	line-height: 10px;
+	padding-left: 100px;
+	float: left;
+	width: 400px;
+
+}
