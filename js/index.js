@@ -1,10 +1,26 @@
 $(document).ready(function() {
 
-	$('#otto').hover(translate);
+	// translate quotes 
+	$('.pullquote').hover(translate);
 
 	function translate() {
-		$('#otto').html('was is impractical can never be beautiful');
+		$('.pullquote span').toggleClass('hide');
 	};
 
+	// navigation hover 
+	$('ul a').mouseenter(showNavItem);
+
+	function showNavItem() {
+		$(this).find('span').toggleClass('hide');
+	};
+
+	$('ul a').mouseleave(showNavItem);
+
+	// $('.navItem').mouseenter(showNavItem);
+
+	// function showNavItem() {
+	// 	$(this).find('span').toggleClass('hide');
+	// }
+	// $('.navItem').mouseleave(showNavItem);
 
 });

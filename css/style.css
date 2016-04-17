@@ -16,99 +16,29 @@
 .clear {
   clear: both;
 }
+/******** BASICS ********/
 
 html,
 body {
 	height: 100%;
 	font-family: 'Titillium Web', helvetica, sans-serif;
 	font-weight: 300;
+	color: black;
 }
+
+/* header, footer, nav */
 
 header,
 footer {
 	height: 10%;
-
 }
-h1 {
-	color: black;
-	text-transform: uppercase;
-	font-size: 18px;
-	letter-spacing: 2px;
-	vertical-align: baseline;
-	padding-left: 10px;
-	float: left;
-	margin-top: 34px;
-}
-
 footer {
 	background-color: black;
 }
-
-main {
-	overflow-x: scroll;
-	overflow-y: hidden;
-	height: 80%;
-
-}
-.main-lvh {
-	background: url(../images/wagner.jpg) left top rgb(0,0,0);
-	background-size: auto auto;
-}
-.main-sca {
-	background: white;
-}
-
-.content {
-	padding: 20px;
+.lander {
+	width: 77.25px;
+	height: 60px;
 	float: left;
-	width: 3000px;
-}
-.floatleft {
-	float: left;
-	margin-right: 20px;
-	width: 400px;
-
-}
-.pullquote {
-	font-size: 40px;
-	font-weight: 600;
-	font-style: italic;
-	letter-spacing: 2px;
-	color: #CE1126;
-}
-.box1 {
-	/*float: left;*/
-	/*width: 400px;*/
-	background: rgba(255,255,255, 0.7);
-	padding: 10px;
-	margin-bottom: 20px;
-}
-.box2 {
-	float: left;
-	width: 400px;
-	margin-right: 20px;
-	margin-top: 60px;
-	padding: 10px;
-	vertical-align: baseline;
-}
-
-.box3 {
-	float: left;
-	width: 300px;
-	background: rgba(255,255,255, 0.7);
-	margin-right: 20px;
-}
-.box4 {
-	float: left;
-	width: 300px;
-	background: rgba(255,255,255, 0.7);
-	margin-right: 20px;
-	padding: 10px;
-}
-.img1 {
-	width: 70%;
-	height: 70%;
-	float: right;
 }
 
 ul {
@@ -118,24 +48,159 @@ ul {
 	margin: auto;
 }
 li {
-	color: white;
 	float: left;
 	width: 12.5%;
 	list-style-type: none;
-	font-size: 12px;
-	font-family: helvetica, sans-serif;
 }
 
-.lander {
-	width: 77.25px;
-	height: 60px;
+/* body */
+main {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 80%;
+
+}
+.content {
+	padding: 20px;
+	float: left;
+	width: 3100px;
+}
+.hide {
+	display: none;
+}
+.baseline-parent {
+	position: relative;
+}
+.baseline {
+	position: absolute;
+    bottom: 0;
+}
+
+/******** LAYOUT ********/
+.col200 {
+	width: 190px;
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+}
+.col400 {
+	width: 390px;
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+}
+.col600 {
+	width: 590px;
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.margin-sm {
+	margin-top: 10px;
+}
+.margin-m {
+	margin-top: 54px;
+}
+.margin-lg {
+	margin-top: 100px;
+}
+.margin-xl {
+	margin-top: 300px;
+}
+.margin-left {
+	margin-left: 40px;
+}
+.float-left {
 	float: left;
 }
-.aboutpoem {
-	font-size: 12px;
-	line-height: 10px;
-	padding-left: 100px;
-	float: left;
-	width: 400px;
+.float-right {
+	float: right;
+}
 
+/******** STYLE ********/
+
+h1 {
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding-left: 20px;
+	margin-top: 34px;
+}
+
+h2 {
+	color: white;
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background: black;
+    padding: 3px 5px;
+    margin: -3px -5px;
+    line-height: 4.0;
+    display: inline;
+}
+h3 {
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+h4 {
+	font-weight: 300;
+	font-style: italic;
+	line-height: 1.5;
+	color: white;
+}
+em {
+	font-style: italic;
+}
+.h3-inline {
+	display: inline;
+}
+.highlight {
+	color: black;
+	background: white;
+    padding: 3px 5px;
+    margin: -3px -5px;
+    line-height: 2.0;
+    display: inline;
+}
+.red {
+	color: rgba(206, 17, 38, .9);
+}
+.history-bg {
+	background: url(../images/wagner.jpg) left top rgb(0,0,0);
+	background-size: auto auto;
+}
+.regners-bg {
+	background: url(../images/regners.jpg) left top rgb(0,0,0);
+	background-size: auto auto;
+	background-repeat: no-repeat;
+}
+.wonder-bg {
+	background: url(../images/constantinluser.jpg) left top rgb(0,0,0);
+	background-size: auto auto;
+}
+.wendelin-bg {
+	background: url(../images/wendelinpressl.jpg) left top rgb(255,255,255);
+	background-size: auto auto;
+	background-repeat: no-repeat;
+}
+
+.full-img {
+	height: 250px;
+}
+.full-img2 {
+	height: 78px;
+}
+.pullquote {
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: rgba(206, 17, 38, .9);
+	margin: 40px 0;
+}
+.about-poem {
+	margin: 40px;
+	line-height: 1.4;
+	margin-left: 200px;
 }
