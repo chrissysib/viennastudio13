@@ -89,14 +89,13 @@ main {
 	margin-right: 20px;
 	margin-top: 60px;
 	padding: 10px;
-	vertical-align: baseline;
 }
 
 .box3 {
 	float: left;
-	width: 300px;
-	background: rgba(255,255,255, 0.7);
+	width: 400px;
 	margin-right: 20px;
+	vertical-align: baseline;
 }
 .box4 {
 	float: left;
