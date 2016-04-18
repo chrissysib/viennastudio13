@@ -81,22 +81,16 @@ main {
 	width: 190px;
 	float: left;
 	padding: 10px;
-<<<<<<< HEAD
-=======
 	margin-right: 10px;
->>>>>>> master
 }
 .col400 {
 	width: 390px;
 	float: left;
-<<<<<<< HEAD
 	width: 400px;
 	margin-right: 20px;
 	vertical-align: baseline;
-=======
 	padding: 10px;
 	margin-right: 10px;
->>>>>>> master
 }
 .col600 {
 	width: 590px;
